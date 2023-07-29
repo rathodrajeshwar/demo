@@ -1,5 +1,6 @@
 pipeline{
-    agent:any
+    agent{
+    label 'build-server'
     stages{
        stage{"Git Checkout"}{
           steps{
