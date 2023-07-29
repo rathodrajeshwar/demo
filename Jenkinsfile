@@ -4,7 +4,7 @@ pipeline{
     stages{
        stage{"Git Checkout"}{
           steps{
-              https://github.com/rathodrajeshwar/demo.git
+              https://github.com/rathodrajeshwar/helloworldjava.git
           
           }
        }
