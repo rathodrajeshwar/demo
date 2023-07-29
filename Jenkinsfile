@@ -3,7 +3,7 @@ pipeline{
     stages{
        stage{"Git Checkout"}{
           steps{
-              https://github.com/week9/leanmedia-packages.git
+              https://github.com/rathodrajeshwar/demo.git
           
           }
        }
